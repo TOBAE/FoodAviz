@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: #fff;
+}
+
+/* Header Section */
+.first_item{
+    margin: 20px 15px;
+}
+
+.middle_item{
+    display: flex;
+    float: right;
+    margin-right: 35px;
+}
+
+.initial{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    background: #000;
+}
+
+.user_name{
+    margin: 5px;
+}
+
+.last_item{
+    display: flex;
+    margin: 80px 20px 40px;
+}
+
+.filter{
+    margin-left: 10px;
+}
+
+
+/* Main Section */
+.id{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.details{
+    background: rgba(58, 246, 8, 0.1);
+    padding-bottom: 15px;
+    height: 146px;
+}
+
+.first_row{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 1.2rem;
+}
+
+.first_row h3{
+    font-size: 1rem;
+}
+
+.time{
+    display: list-item;
+    list-style: none;
+}
+
+.second_row{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_row h3{
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+
+/* Select Section */
+select{
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 15px;
+}
+
+.select{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
